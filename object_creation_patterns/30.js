@@ -1,9 +1,5 @@
 function newPerson(name) {
   return Object.defineProperties({name}, {
-    // name: {
-    //   value: name,
-    //   writeable: false,
-    // },
     log: {
       value: function() {
       console.log(this.name);

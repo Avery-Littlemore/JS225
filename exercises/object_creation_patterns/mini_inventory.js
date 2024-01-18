@@ -127,17 +127,6 @@ const ReportManager = {
   },
 };
 
-// The report manager generates reports for a specific item or ALL items. 
-// Reports for specific items are generated from report objects created from the report manager. 
-// The report manager is responsible for reports for all items.
-let ReportsManager = (function() {
-  return {
-
-  }
-})();
-
-// console.log(typeof ItemManager)
-
 ItemManager.create('basket ball', 'sports', 0);           // valid item
 ItemManager.create('asd', 'sports', 0);
 ItemManager.create('soccer ball', 'sports', 5);           // valid item
